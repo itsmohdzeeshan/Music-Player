@@ -1,0 +1,46 @@
+/* .border{
+    border: 2px solid rgb(233, 26, 26);
+} */
+
+.display{
+    display: flex;
+    gap: 12px;
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+    border-radius: 12px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+/* For the entire scrollbar */
+::-webkit-scrollbar {
+    width: 12px;  /* width of the scrollbar */
+}
+
+/* For the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #1e1e1e;  /* dark background for the track */
+    border-radius: 10px;  /* rounded corners for the track */
+}
+
+/* For the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #444;  /* dark gray color for the thumb */
+    border-radius: 10px;  /* rounded corners for the thumb */
+    border: 3px solid #1e1e1e;  /* padding around the thumb to match the track background */
+}
+
+/* For the scrollbar thumb when being hovered */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;  /* slightly lighter gray for the thumb on hover */
+}
+
+/* For the scrollbar thumb when being active/dragged */
+::-webkit-scrollbar-thumb:active {
+    background: #666;  /* even lighter gray for the thumb when active */
+}
